@@ -11,7 +11,7 @@ function VisitingCard() {
         marginLeft: "auto",
         marginRight: "auto",
         boxShadow: "0 4px 10px rgba(0,0,0,0.15)",
-        color: "black"
+       color: "aqua"
       }}
     >
       <h1 style={{ textAlign: "center" }}>Endorse Industries</h1>

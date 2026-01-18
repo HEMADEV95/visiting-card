@@ -3,8 +3,7 @@ import VisitingCard from "./VisitingCard";
 import { QRCodeCanvas } from "qrcode.react";
 
 function App() {
-  const visitingCardUrl = window.location.origin + "/card";
-
+  const visitingCardUrl = "https://visiting-card-two.vercel.app//card";
   return (
     <Routes>
       <Route

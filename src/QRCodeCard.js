@@ -9,7 +9,7 @@ function App() {
  // const visitingCardUrl = "https://visiting-card-m43tnnh8u-hemas-projects-86c5308f.vercel.app/card";
  //  const visitingCardUrl = "https://amazing-starburst-f9eb00.netlify.app/card";
   //const visitingCardUrl = "http://localhost:3000/card";
- const visitingCardUrl = window.location.origin + "/card";
+ const visitingCardUrl ="https://visiting-card-two.vercel.app//card";
 
 
   return (
