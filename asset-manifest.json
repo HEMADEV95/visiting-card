@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/visiting-card/static/css/main.e6c13ad2.css",
+    "main.js": "/visiting-card/static/js/main.986394ac.js",
+    "static/js/453.b58d5d75.chunk.js": "/visiting-card/static/js/453.b58d5d75.chunk.js",
+    "index.html": "/visiting-card/index.html",
+    "main.e6c13ad2.css.map": "/visiting-card/static/css/main.e6c13ad2.css.map",
+    "main.986394ac.js.map": "/visiting-card/static/js/main.986394ac.js.map",
+    "453.b58d5d75.chunk.js.map": "/visiting-card/static/js/453.b58d5d75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.986394ac.js"
+  ]
+}
