@@ -1,17 +1,19 @@
+import React from "react";
+import { QRCodeCanvas } from "qrcode.react";
 import { Routes, Route } from "react-router-dom";
 import VisitingCard from "./VisitingCard";
-import { QRCodeCanvas } from "qrcode.react";
 
 function App() {
-  const visitingCardUrl = "https://visiting-card-two.vercel.app//card";
+  const visitingCardUrl = "http://localhost:3000/card"; // local test
+
   return (
     <Routes>
       <Route
         path="/"
         element={
           <div style={{ textAlign: "center", marginTop: "50px" }}>
-            <h1>Scan QR card to connect us</h1>
-            <QRCodeCanvas value={visitingCardUrl} />
+            <h2>Scan QR card to connect us</h2>
+            <QRCodeCanvas value={visitingCardUrl} size={220} />
           </div>
         }
       />
