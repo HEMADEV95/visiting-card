@@ -17,7 +17,7 @@ function VisitingCard() {
     >
 
       <h3 style={{ textAlign: "center" }}>Connect with us:</h3>
-      <li><img src="logo1.png" style={logoStyle}></img></li>
+      <li><img src="logo1.png" alt="Endorse Industries Logo"  style={logoStyle}></img></li>
 
       <ul style={{ listStyle: "none", padding: 0, color: "black"}}>
         <li style={{ margin: "10px 0" }}>
