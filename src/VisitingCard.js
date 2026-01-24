@@ -43,10 +43,9 @@ backgroundColor: "#33526b",
 }
 
 const logoStyle = {
-  width: "80px",
-  height: "80px",
+  width: "100px",
+  height: "100px",
   backgroundColor: "#33526b",
-  border: "1px solid #356593",
   objectFit: "contain",
   padding: "5px",
   borderRadius: "6px",
