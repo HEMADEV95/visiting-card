@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import VisitingCard from "./VisitingCard";
 
 function App() {
-  const visitingCardUrl = "http://localhost:3000/card"; // local test
+  const visitingCardUrl = "https://visiting-card-two.vercel.app/card"; // local test
 
   return (
     <Routes>

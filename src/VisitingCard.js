@@ -3,21 +3,21 @@ function VisitingCard() {
     <div
       style={{
         marginTop: "50px",
-        backgroundColor: "black",
-        border: "2px solid gray",
-        borderRadius: "12px",
-        padding: "20px",
+        backgroundColor: "#1f2a33",
+        border: "1px solid #2e3f4f",
+        borderRadius: "14px",
+        padding: "22px",
         width: "320px",
         marginLeft: "auto",
         marginRight: "auto",
-        boxShadow: "0 4px 10px rgba(0,0,0,0.15)",
-       color: "aqua"
+        boxShadow: "0 8px 20px rgba(0,0,0,0.35)",
+        color: "#ffffff",
+        fontFamily: "Arial, sans-serif"
       }}
     >
-      <h1 style={{ textAlign: "center" }}>Endorse Industries</h1>
 
       <h3 style={{ textAlign: "center" }}>Connect with us:</h3>
-      <li> <img src="logo.png" alt="Endorse Industries Logo"  style={logoStyle}></img></li>
+      <li><a> <img src="logo1.png" style={logoStyle}></img></a></li>
 
       <ul style={{ listStyle: "none", padding: 0, color: "black"}}>
         <li style={{ margin: "10px 0" }}>
@@ -34,6 +34,9 @@ function VisitingCard() {
         </li>
         <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="https://www.facebook.com/profile.php?id=61583425311578">📘 Facebook</a>
+        </li>
+         <li style={{ margin: "10px 0" }}>
+          <a style={linkStyle} href="https://www.youtube.com/@endorseindustries">▶️ YouTube</a>
         </li>
       </ul>
     </div>
@@ -54,12 +57,11 @@ const logoStyle = {
 
 const linkStyle = {
   display: "block",
-  border: "1px solid gray",
-  backgroundColor: "black",
-  borderRadius: "8px",
+        backgroundColor: "#1f2a33",
+        border: "1px solid #2e3f4f",
+       borderRadius: "8px",
   padding: "10px",
   textDecoration: "none",
-  color: "aqua",
   fontWeight: "500",
   textAlign: "left"
 };
