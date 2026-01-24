@@ -16,12 +16,11 @@ function VisitingCard() {
       }}
     >
 
-      <h3 style={{ textAlign: "center" }}>Connect with us:</h3>
       <li><img src="logo1.png" alt="Endorse Industries Logo"  style={logoStyle}></img></li>
 
-      <ul style={{ listStyle: "none", padding: 0, color: "black"}}>
+      <ul style={{ listStyle: "none", padding: 0}}>
         <li style={{ margin: "10px 0" }}>
-          <a style={linkStyle} href="tel:+917838168975">📞 Call Me</a>
+          <a style={linkStyle} href="tel:+917838168975">📞 Call</a>
         </li>
         <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="mailto:endorseindustries@gmail.com">📧 Email</a>
@@ -35,9 +34,9 @@ function VisitingCard() {
         <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="https://www.facebook.com/profile.php?id=61583425311578">📘 Facebook</a>
         </li>
-         {/* <li style={{ margin: "10px 0" }}>
+         <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="https://www.youtube.com/@endorseindustries">▶️ YouTube</a>
-        </li> */}
+        </li>
       </ul>
     </div>
   );
@@ -46,12 +45,14 @@ function VisitingCard() {
 const logoStyle = {
   width: "40px",
   height: "40px",
+  backgroundColor: "#33526b",
+  border: "1px solid #356593",
   objectFit: "contain",
-  backgroundColor: "white",
   padding: "5px",
   borderRadius: "6px",
   display: "block",
-  margin: "0 auto"   // ✅ centers the image
+  margin: "0 auto" ,
+  fontFamily: "#e5ebf0",// ✅ centers the image
 };
 
 
