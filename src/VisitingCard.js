@@ -3,8 +3,8 @@ function VisitingCard() {
     <div
       style={{
         marginTop: "50px",
-backgroundColor: "#33526b",
-  border: "1px solid #356593",
+    backgroundColor: "#33526b",
+     border: "1px solid #356593",
         borderRadius: "14px",
         padding: "22px",
         width: "320px",
