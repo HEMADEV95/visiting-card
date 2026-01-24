@@ -17,7 +17,7 @@ function VisitingCard() {
     >
 
       <h3 style={{ textAlign: "center" }}>Connect with us:</h3>
-      <li><a> <img src="logo1.png" style={logoStyle}></img></a></li>
+      <li><img src="logo1.png" style={logoStyle}></img></li>
 
       <ul style={{ listStyle: "none", padding: 0, color: "black"}}>
         <li style={{ margin: "10px 0" }}>
@@ -35,9 +35,9 @@ function VisitingCard() {
         <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="https://www.facebook.com/profile.php?id=61583425311578">📘 Facebook</a>
         </li>
-         <li style={{ margin: "10px 0" }}>
+         {/* <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="https://www.youtube.com/@endorseindustries">▶️ YouTube</a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
