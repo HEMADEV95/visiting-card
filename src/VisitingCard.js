@@ -3,8 +3,8 @@ function VisitingCard() {
     <div
       style={{
         marginTop: "50px",
-        backgroundColor: "#1f2a33",
-        border: "1px solid #2e3f4f",
+backgroundColor: "#33526b",
+  border: "1px solid #356593",
         borderRadius: "14px",
         padding: "22px",
         width: "320px",
@@ -15,10 +15,10 @@ function VisitingCard() {
         fontFamily: "Arial, sans-serif"
       }}
     >
+      {/* Logo */}
+      <img src="logo1.png" alt="Endorse Industries Logo" style={logoStyle} />
 
-      <li><img src="logo1.png" alt="Endorse Industries Logo"  style={logoStyle}></img></li>
-
-      <ul style={{ listStyle: "none", padding: 0}}>
+      <ul style={{ listStyle: "none", padding: 0 }}>
         <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="tel:+917838168975">📞 Call</a>
         </li>
@@ -34,7 +34,7 @@ function VisitingCard() {
         <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="https://www.facebook.com/profile.php?id=61583425311578">📘 Facebook</a>
         </li>
-         <li style={{ margin: "10px 0" }}>
+        <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="https://www.youtube.com/@endorseindustries">▶️ YouTube</a>
         </li>
       </ul>
@@ -43,28 +43,27 @@ function VisitingCard() {
 }
 
 const logoStyle = {
-  width: "40px",
-  height: "40px",
+  width: "80px",
+  height: "80px",
   backgroundColor: "#33526b",
   border: "1px solid #356593",
   objectFit: "contain",
   padding: "5px",
   borderRadius: "6px",
   display: "block",
-  margin: "0 auto" ,
-  fontFamily: "#e5ebf0",// ✅ centers the image
+  margin: "0 auto"
 };
-
 
 const linkStyle = {
   display: "block",
-   backgroundColor: "#1f2a33",
-   border: "1px solid #2e3f4f",
-   borderRadius: "8px",
+backgroundColor: "#33526b",
+  border: "1px solid #356593",
+  borderRadius: "8px",
   padding: "10px",
   textDecoration: "none",
   fontWeight: "500",
-  textAlign: "left"
+  textAlign: "left",
+  color: "#ffffff" // ✅ fixes blue font
 };
 
 export default VisitingCard;
