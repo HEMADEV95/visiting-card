@@ -23,7 +23,7 @@ backgroundColor: "#33526b",
           <a style={linkStyle} href="tel:+917838168975">📞 Call</a>
         </li>
         <li style={{ margin: "10px 0" }}>
-          <a style={linkStyle} href="mailto:endorseindustries@gmail.com">📧 Email</a>
+          <a style={linkStyle} href="mailto:devprakash@endorse.co.in">📧 Email</a>
         </li>
         <li style={{ margin: "10px 0" }}>
           <a style={linkStyle} href="https://wa.me/917838168975">💬 WhatsApp</a>
@@ -43,7 +43,7 @@ backgroundColor: "#33526b",
 }
 
 const logoStyle = {
-  width: "100px",
+  width: "150px",
   height: "100px",
   backgroundColor: "#33526b",
   objectFit: "contain",
