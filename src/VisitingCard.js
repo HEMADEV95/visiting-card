@@ -57,9 +57,9 @@ const logoStyle = {
 
 const linkStyle = {
   display: "block",
-        backgroundColor: "#1f2a33",
-        border: "1px solid #2e3f4f",
-       borderRadius: "8px",
+   backgroundColor: "#1f2a33",
+   border: "1px solid #2e3f4f",
+   borderRadius: "8px",
   padding: "10px",
   textDecoration: "none",
   fontWeight: "500",
